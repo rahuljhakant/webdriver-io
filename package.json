@@ -1,0 +1,14 @@
+{
+  "name": "webdriverio-project",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.0.9",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/mocha-framework": "^9.0.8",
+    "@wdio/visual-service": "^6.0.0",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  }
+}
